@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background: #4C52FF;
+    padding: 40px;
+    color: white;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    padding: 40px;
+    background: white;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: 30px;
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4C52FF;
+}
+
+.project-card a {
+    color: #4C52FF;
+    text-decoration: none;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px;
+    background: #4C52FF;
+    color: white;
+    text-align: center;
+}
+
+.contact a {
+    color: yellow;
+    text-decoration: none;
+}
